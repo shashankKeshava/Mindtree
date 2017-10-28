@@ -20,6 +20,6 @@ The following Mindtree Assignment was part of interview process. The assignment 
 ## Acknowledgment
 
 ## Note
-The assignment was part of the interview which I have successfully cleared this repo is preset to help future candidates brush up on there skills and learn more about [Github Developer Program](https://developer.github.com/) so that you can use this to sharpen your skill set or help with other interviews. 
+The assignment was part of an interview whose positions have been fulfilled, this repo is meant for people to learn more about [React](https://reactjs.org/) and [Github Developer Program](https://developer.github.com/) so that you can use this to sharpen your skill set or help with other interviews. 
 
-## **This repo is not meant for cheating on any kind of exam its purely educational**
+## **This repo is not meant for cheating on any kind of exam, its purely educational**
