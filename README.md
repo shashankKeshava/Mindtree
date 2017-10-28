@@ -18,3 +18,8 @@ The following Mindtree Assignment was part of interview process. The assignment 
 ## License
 
 ## Acknowledgment
+
+## Note
+The assignment was part of the interview which I have successfully cleared this repo is preset to help future candidates brush up on there skills and learn more about [Github Developer Program](https://developer.github.com/) so that you can use this to sharpen your skill set or help with other interviews. 
+
+## **This repo is not meant for cheating on any kind of exam its purely educational**
