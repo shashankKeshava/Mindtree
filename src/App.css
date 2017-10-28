@@ -66,14 +66,15 @@
   margin: 5px 36px 5px 5px;
   border: 1px solid rgba(0, 0, 0, 2);
   border-radius: 0.3rem;
-  max-width: 250px;
+  /*max-width: 250px; */
   max-height: 200px;
 }
 
 .basicDetails-header {
   display: flex;
   position: relative;
-  margin-left: 45px;
+  /*margin-left: 45px;*/
+  justify-content: center;
 }
 
 /*.basicDetails-header-text {
@@ -94,5 +95,6 @@
 }
 
 .align-left{
-  //float: left;
+  text-align: left;
+  padding-left: 5px; 
 }
