@@ -33,27 +33,25 @@
 }
 
 .userTiles {
-  display: inline;
+  display: inline-block;
   position: relative;
-  top: 0px;
-  left: 0px;
-  padding: 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
+  width: 128px;
+  height: 128px;
+  margin: 5px;
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: inherit;
+  height: inherit;
 }
 
 .login {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   font-size: 15px;
   color: #ffffff;
-  padding: 0px 2px 2px 5px;
-  margin: 0px 5px 2px 5px;
 }
 
 .basicDetails {
