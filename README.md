@@ -11,9 +11,9 @@ The following Mindtree Assignment was part of interview process. The assignment 
 ## Installation
 1. Clone or download the repo
 2. Register [OAuth App](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/registering-oauth-apps/)
-3. Add the crentials in [App.js](App.js)
-3. Install Dependencies `yarn install or npm install`
-4. Start the app `yarn start or npm start`
+3. Add the credentials in [App.js](src/App.js)
+4. Install Dependencies `yarn install or npm install`
+5. Start the app `yarn start or npm start`
 
 ## License
 
