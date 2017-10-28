@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 56px;
+  padding: 20px;
+  color: white;
+  margin: 0px 0px 10px 0px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.userTiles {
+  display: inline;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.login {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0px 2px 2px 5px;
+  margin: 0px 5px 2px 5px;
+}
+
+.basicDetails {
+  position: absolute;
+  display: block;
+  top: 120px;
+  right: 0px;
+  background: white;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 36px 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 2);
+  border-radius: 0.3rem;
+  max-width: 250px;
+  max-height: 200px;
+}
+
+.basicDetails-header {
+  display: flex;
+  position: relative;
+  margin-left: 45px;
+}
+
+/*.basicDetails-header-text {
+  position: relative;
+  top: 0px;
+  left: 4%;
+}*/
+
+.basicDetails-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: #521924;
+}
+
+.basicDetails-close:hover{
+  background-color: red;
+}
+
+.align-left{
+  //float: left;
+}
