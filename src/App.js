@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import request from "superagent";
 
+// Add Credentials
 const clientID = "XXXXXXX";
 const clientSecret = "XXXXX";
 
