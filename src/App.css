@@ -32,6 +32,10 @@
   }
 }
 
+.align-left {
+    text-align: left
+}
+
 .userTiles {
   display: inline;
   position: relative;
