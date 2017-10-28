@@ -3,8 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import request from "superagent";
 
-const clientID = "38481dd283afc97431c0";
-const clientSecret = "f8edbfdcd42e084b2dcf5b22cc6f42a8a6cc3205";
+const clientID = "XXXXXXX";
+const clientSecret = "XXXXX";
 
 const url = `https://api.github.com/users?client_id=${clientID}&client_secret=${clientSecret}`;
 
