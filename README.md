@@ -15,10 +15,6 @@ The following Mindtree Assignment was part of interview process. The assignment 
 4. Install Dependencies `yarn install or npm install`
 5. Start the app `yarn start or npm start`
 
-## License
-
-## Acknowledgment
-
 ## Note
 The assignment was part of an interview whose positions have been fulfilled, this repo is meant for people to learn more about [React](https://reactjs.org/) and [Github Developer Program](https://developer.github.com/) so that you can use this to sharpen your skill set or help with other interviews. 
 

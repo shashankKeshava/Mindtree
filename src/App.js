@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import request from "superagent";
+import Pagination from "rc-pagination";
 
 // Add Credentials of Client ID and Client Secret
-const clientID = "XXXXXXX";
-const clientSecret = "XXXXX";
+const clientID = "XXXXXXXX";
+const clientSecret = "XXXXXXX";
 
 const url = `https://api.github.com/users?client_id=${clientID}&client_secret=${clientSecret}`;
 
@@ -110,6 +111,7 @@ class App extends Component {
         </header>
         {this._userListing()}
         {this.state.userDetails}
+        <Pagination currrent={"5"} total={"25"}/>
       </div>
     );
   }

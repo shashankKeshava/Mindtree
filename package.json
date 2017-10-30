@@ -1,9 +1,10 @@
 {
   "name": "mindtree",
-  "author":"Shashank K <keshavashashank@gmail.com>",
+  "author": "Shashank K <keshavashashank@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "rc-pagination": "^1.12.10",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
