@@ -5,10 +5,11 @@ import request from "superagent";
 import Pagination from "rc-pagination";
 
 // Add Credentials of Client ID and Client Secret
-const clientID = "XXXXXXXX";
-const clientSecret = "XXXXXXX";
+const clientID = "38481dd283afc97431c0";
+const clientSecret = "f8edbfdcd42e084b2dcf5b22cc6f42a8a6cc3205";
 
-const url = `https://api.github.com/users?client_id=${clientID}&client_secret=${clientSecret}`;
+let page = 0;
+let url =null;
 
 class App extends Component {
   constructor(props) {
@@ -16,9 +17,35 @@ class App extends Component {
     this.state = {
       userList: null,
       userDetails: null,
-      apiResponse: null
+      apiResponse: null,
+      page: {
+        defaultCurrent: 1,
+        current: 0,
+        pageSize: 46,
+        total: 100
+      }
     };
   }
+ 
+  handlePageChange = (current, pageSize) => {
+    let lastId = this.state.apiResponse[this.state.apiResponse.length - 1].id;
+    console.log(lastId);
+    this.setState({
+      page:{
+        current:current
+      }
+    })
+    /*request.get(url).end((err, res) => {
+      if (err) console.log(err);
+      else
+        this.setState({
+          apiResponse: res.body,
+          page: {
+            current: current
+          }
+        });
+    });*/
+  };
 
   handleCloseBio = () => {
     this.setState({
@@ -104,6 +131,7 @@ class App extends Component {
     });
   };
   render() {
+     url=`https://api.github.com/users?since=${this.state.page.current}&client_id=${clientID}&client_secret=${clientSecret}`;
     return (
       <div className="App">
         <header className="App-header">
@@ -111,7 +139,13 @@ class App extends Component {
         </header>
         {this._userListing()}
         {this.state.userDetails}
-        <Pagination currrent={"5"} total={"25"}/>
+        <Pagination
+          simple
+          defaultCurrent={this.state.page.defaultCurrent}
+          currrent={this.state.page.current}
+          total={this.state.page.total}
+          onChange={this.handlePageChange}
+        />
       </div>
     );
   }
